@@ -1,28 +1,12 @@
 # SSR2HeroKu
 
-最後更新：
 
-**經過測試，GFW 已經 牆掉 所有 \[your app name\].herokuapp.com 網址，因此，本項目(SSR2HeroKu)在中國大陸已不再可用，本項目宣告死亡，不再更新。R.I.P.**
-```
-C:>tracert mygoodsite.herokuapp.com
-
-Tracing route to mygoodsite.herokuapp.com [123.45.67.89]
-over a maximum of 30 hops:
-
-  1     4 ms     4 ms     6 ms  192.168.24.1
-  2     *        *        *     Request timed out.
-...
- 29     *        *        *     Request timed out.
- 30     *        *        *     Request timed out.
-
-Trace complete.
-```
 
 ## 快速部署
 
 在 https://heroku.com 网站上注册账号，登录，准备就绪后，点击这个 `Deploy to Heroku` 按钮链接。
 
-[![](https://user-images.githubusercontent.com/30760636/96996783-0da82100-1563-11eb-9af1-3ecd0a83420b.png)](https://heroku.com/deploy?template=https://github.com/ShadowsocksR-Live/ssr2heroku/tree/main)
+[![](https://user-images.githubusercontent.com/30760636/96996783-0da82100-1563-11eb-9af1-3ecd0a83420b.png)](https://heroku.com/deploy?template=https://github.com/evae88/ssrotoku/tree/main)
 
 在随后出现的页面上按提示输入 `应用名称`,以及 `${APP_SITE}`, `${PASSWORD}`, `${SECRET_PATH}` 这三个变量的值，再点击下部的 `Deploy app` 按钮就将 SSRoT 服务端最新版本部署在 heroku 的 docker 容器上了。
 
